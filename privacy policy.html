@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebijakan Privasi | SiTumbuh</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #40925e, #2f7a4a);
+      color: #fff;
+      padding: 32px 16px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 24px auto;
+      background: #ffffff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #40925e;
+      margin-top: 28px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #6b7280;
+    }
+    .updated {
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kebijakan Privasi</h1>
+    <p>Aplikasi SiTumbuh – Sistem Informasi Tumbuh Kembang Anak</p>
+  </header>  <div class="container">
+    <p class="updated">Terakhir diperbarui: <span id="lastUpdate"></span></p><p>
+  Privasi pengguna merupakan hal yang sangat penting bagi kami. Dokumen Kebijakan Privasi ini
+  menjelaskan bagaimana aplikasi <strong>SiTumbuh</strong> mengumpulkan, menggunakan, melindungi,
+  dan mengelola informasi pengguna.
+</p>
+
+<h2>1. Informasi yang Kami Kumpulkan</h2>
+<p>Kami dapat mengumpulkan beberapa jenis informasi, antara lain:</p>
+<ul>
+  <li>Data identitas dasar (seperti nama atau nama panggilan pengguna)</li>
+  <li>Data anak (usia, berat badan, tinggi badan, dan data pendukung tumbuh kembang)</li>
+  <li>Data ibu hamil untuk pemantauan kesehatan</li>
+  <li>Data penggunaan aplikasi (fitur yang diakses, waktu penggunaan)</li>
+</ul>
+
+<h2>2. Penggunaan Informasi</h2>
+<p>Informasi yang dikumpulkan digunakan untuk:</p>
+<ul>
+  <li>Menyediakan fitur pemantauan tumbuh kembang anak</li>
+  <li>Menghitung kebutuhan gizi melalui kalkulator gizi</li>
+  <li>Menyajikan grafik perkembangan dan hasil skrining</li>
+  <li>Menyediakan layanan konsultasi dan edukasi kesehatan</li>
+  <li>Meningkatkan kualitas dan keamanan aplikasi</li>
+</ul>
+
+<h2>3. Penyimpanan dan Keamanan Data</h2>
+<p>
+  Kami berupaya menjaga keamanan data pengguna dengan menerapkan langkah-langkah teknis
+  dan organisatoris yang wajar untuk melindungi data dari akses tidak sah, kehilangan,
+  atau penyalahgunaan.
+</p>
+
+<h2>4. Berbagi Informasi</h2>
+<p>
+  Kami <strong>tidak menjual</strong> atau menyewakan data pribadi pengguna kepada pihak ketiga.
+  Informasi hanya dapat dibagikan apabila diwajibkan oleh hukum atau untuk kepentingan
+  pengembangan layanan dengan tetap menjaga kerahasiaan data.
+</p>
+
+<h2>5. Hak Pengguna</h2>
+<p>Pengguna memiliki hak untuk:</p>
+<ul>
+  <li>Mengakses dan memperbarui data pribadi</li>
+  <li>Menghapus data yang disimpan di dalam aplikasi</li>
+  <li>Menghentikan penggunaan aplikasi kapan saja</li>
+</ul>
+
+<h2>6. Privasi Anak</h2>
+<p>
+  Aplikasi SiTumbuh ditujukan untuk pendampingan orang tua atau wali. Data anak hanya
+  dimasukkan oleh orang tua/wali dengan kesadaran dan tanggung jawab penuh.
+</p>
+
+<h2>7. Perubahan Kebijakan Privasi</h2>
+<p>
+  Kebijakan Privasi ini dapat diperbarui sewaktu-waktu. Perubahan akan diinformasikan
+  melalui aplikasi atau halaman ini.
+</p>
+
+<h2>8. Kontak Kami</h2>
+<p>
+  Jika Anda memiliki pertanyaan atau masukan terkait Kebijakan Privasi ini, silakan
+  menghubungi kami melalui email:
+  <strong>support@situmbuh.app</strong>
+</p>
+
+  </div>  <footer>
+    © <span id="year"></span> SiTumbuh. Seluruh hak cipta dilindungi.
+  </footer>  <script>
+    const today = new Date();
+    document.getElementById('year').textContent = today.getFullYear();
+    document.getElementById('lastUpdate').textContent = today.toLocaleDateString('id-ID', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    });
+  </script></body>
+</html>
